@@ -25,5 +25,5 @@ for (o = 0; o <= t; o++)
 	_putchar(str[o]);
 }
 }
-_putchar('\n')
+_putchar('\n');
 }
