@@ -4,7 +4,7 @@
  * @n: number to return factorial from
  * return: factorial of n
  */
-int factoria(int n)
+int factorial(int n)
 {
 	if (n < 0)
 		return (-1);
