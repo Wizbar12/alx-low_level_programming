@@ -28,7 +28,7 @@ char *_memset(char *s, char b, unsigned int n)
  *
  * Return: pointer to allocted memory
  */
-void *calloc(unsigned int nmemb, unsigned int size)
+void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	char *ptr;
 
