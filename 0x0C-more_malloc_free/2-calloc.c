@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * *memset - fill memory with a constant byte
+ * *_memset - fill memory with a constant byte
  * @s: memory area to be filled
  * @b: char to copy
  * @n: number of times to copy b
@@ -22,7 +22,7 @@ char *_memset(char *s, char b, unsigned int n)
 }
 
 /**
- * _calloc - allocate memory for array
+ * *_calloc - allocate memory for array
  * @nmemb: number of elements in the array
  * @size: size of each element
  *
