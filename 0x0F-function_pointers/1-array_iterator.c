@@ -1,4 +1,4 @@
-#include "function_pointer.h"
+#include "function_pointers.h"
 #include <stdio.h>
 /**
  * arrsy_iterator - prints each array element on a new line
@@ -7,7 +7,7 @@
  * @action: pointer to print in regular or hex
  * Return: void
  */
-void array_iterator(int *array, size_t size, void (*action)(int));
+void array_iterator(int *array, size_t size, void (*action)(int))
 {
 	unsigned int i;
 
